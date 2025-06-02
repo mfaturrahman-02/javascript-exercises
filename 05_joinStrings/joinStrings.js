@@ -7,11 +7,19 @@
  The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
 */
 
+
+
 // Add your code right below, good luck!
 
+const firstName = 'Carlos';
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
 
-
-
+greeting = "Hello! My name is " + firstName +" "+ lastName +" and I am " + (thisYear-birthYear) +" years old.";
+ 
+const fullName="Carlos Stevenson";
+const age=18;
 
 // Do not change this
 module.exports = {
